@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/bell"
+        android:icon="@drawable/ic_bell"
+        android:title="search"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/search_menu"
+        android:icon="@drawable/ic_search"
+        android:title="search"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="About" />
+</menu>
